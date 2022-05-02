@@ -1,5 +1,6 @@
 // 首页头部
 <template>
+<!-- div -->
   <div class="c-nav">
     <div class="header">
       <div class="log">
