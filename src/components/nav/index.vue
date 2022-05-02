@@ -1,3 +1,4 @@
+// 首页头部
 <template>
   <div class="c-nav">
     <div class="header">
