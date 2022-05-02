@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>小机器人</title>
+    <g id="控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="矩形" transform="translate(-40.000000, -24.000000)">
+            <g id="小机器人" transform="translate(40.000000, 24.000000)">
+                <rect id="矩形" fill="#DADFF2" x="0" y="0" width="48" height="48" rx="8"></rect>
+                <g id="编组-8" transform="translate(10.000000, 8.500000)">
+                    <rect id="矩形" fill="#6C8FF1" x="3.68421053" y="9.67073171" width="20.6315789" height="20.8292683" rx="3.7"></rect>
+                    <rect id="矩形备份-5" fill="#6C8FF1" x="12.8947368" y="5.20731707" width="2.21052632" height="4.46341463"></rect>
+                    <rect id="矩形备份-9" fill="#6C8FF1" x="0" y="16.3658537" width="2.21052632" height="7.43902439" rx="1.10526316"></rect>
+                    <rect id="矩形备份-10" fill="#6C8FF1" x="25.7894737" y="16.3658537" width="2.21052632" height="7.43902439" rx="1.10526316"></rect>
+                    <rect id="矩形备份-6" fill="#6C8FF1" x="10.3157895" y="0" width="7.36842105" height="7.43902439" rx="3.68421053"></rect>
+                    <rect id="矩形备份-11" fill="#FFFFFF" x="5.89473684" y="11.902439" width="16.2105263" height="16.3658537" rx="2.22"></rect>
+                    <rect id="矩形备份-7" fill="#6C8FF1" x="8.10526316" y="17.6676829" width="4.42105263" height="4.46341463" rx="2.21052632"></rect>
+                    <rect id="矩形备份-8" fill="#6C8FF1" x="15.8421053" y="17.6676829" width="4.42105263" height="4.46341463" rx="2.21052632"></rect>
+                    <rect id="矩形备份-12" fill="#FFFFFF" x="12.5263158" y="2.23170732" width="2.94736842" height="2.97560976" rx="1.47368421"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

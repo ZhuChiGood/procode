@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="app-version" content="<%= htmlWebpackPlugin.options.appVersion %>">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <title>package</title>
+  <%
+    const procodeConfig = htmlWebpackPlugin.options.procodeConfig;
+    if(procodeConfig.customComponentScriptList) {
+      for (let i = 0; i < procodeConfig.customComponentScriptList.length; i++) {
+      const scriptUrl = procodeConfig.customComponentScriptList[i];
+  %>
+
+  <script src="<%= scriptUrl %>"></script>
+
+  <% }}
+
+    if(procodeConfig.jsLibScriptList) {
+        for (let i = 0; i < procodeConfig.jsLibScriptList.length; i++) {
+        const jsScriptUrl = procodeConfig.jsLibScriptList[i];
+  %>
+
+  <script src="<%= jsScriptUrl %>"></script>
+
+  <% }}
+
+    if(procodeConfig.jsLibStyleList) {
+        for (let i = 0; i < procodeConfig.jsLibStyleList.length; i++) {
+        const jsStyleUrl = procodeConfig.jsLibStyleList[i];
+  %>
+
+  <link rel="stylesheet" href="<%= jsStyleUrl %>"></link>
+
+  <% }}
+
+  %>
+
+</head>
+<body>
+  <div id="app"></div>
+</body>
+</html>
